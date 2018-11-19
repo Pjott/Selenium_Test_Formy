@@ -12,7 +12,7 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.setProperty("webdriver.chrome.driver", "D:\\Programs\\chromedriver_win32\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "/home/pitr/Intellij_Projects/Selenium_Test_Formy/resources/chromedriver");
 
         WebDriver driver = new ChromeDriver();
 
