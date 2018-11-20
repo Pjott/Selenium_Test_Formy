@@ -10,7 +10,6 @@ public class FormPage {
         driver.findElement(By.id("last-name")).sendKeys("Kowalski");
         driver.findElement(By.id("job-title")).sendKeys("Kierowca");
         driver.findElement(By.id("radio-button-2")).click();
-        driver.findElement(By.id("radio-button-2")).click();
         driver.findElement(By.id("checkbox-1")).click();
         driver.findElement(By.cssSelector("option[value='1']")).click();
         driver.findElement(By.id("datepicker")).sendKeys("11/11/2020");
